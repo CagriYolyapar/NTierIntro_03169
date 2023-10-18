@@ -12,6 +12,8 @@ namespace Project.ENTITIES.Models
         public string Password { get; set; }
 
         //Relational Properties
-        public virtual AppUserProfile MyProperty { get; set; }
+        public virtual AppUserProfile Profile { get; set; }
+        public virtual List<Order> Orders { get; set; }
+
     }
 }
