@@ -1,0 +1,32 @@
+﻿1 => Öncelikler katmanlarımızı (Project.ENTITIES, Project.MAP,Project.DAL,Project.BLL katmanlarını) class library (.Net Framework) olarak acıyoruz (Solution'imiza sag tıklayıp Add New Project diyerek)...UI katmanını hangi display'de istiyorsanız o platformda acmalısınız...Bizim burada kullandıgımız Display Windows Form App. olarak secilmiştir...
+
+Class Library olan projeleriniz calısabilecek projeler degildir... Bu projeler ilgili yapı canlıya cıktıgı zaman DLL'e dönüsüp calısabilecek durumda olan projenin icerisine eklenen dosyalardır...Sizin calısabilecek tek yapınız UI katmanıdır...Bu yüzden hemen UI katmanımız olan projeyi Set As StartupProject olarak ayarlamalısınız...
+
+
+N-Tier
+
+----Entities Katmanı------
+*Veritabanında tabloya dönüsecek olan sınıflarımızı ve enum'larımızı, varsa Interface'lerimizi icerecek olan katmandır
+
+-----MAP Katmanı-----
+
+*Veritabanı ayarlamalarınızı hazır bulundurup DAL'e göndecek katmandır
+
+
+---DAL Katmanı----
+
+*Veritabanınız ile haberlesecek ve veritabanınızın olusmasını saglayacak katmandır...
+
+
+---BLL Katmanı---
+*İş akışınızı belirleyecek olan katmandır
+
+
+---UI Katmanı---
+*Kullanıcının etkileşime gececegi projeyi olusturan katmandır
+
+
+
+----Sıra-----
+
+1 => Önce ENtities'e baslıyoruz...Entities katmanında veritabanında tablo olacak sınıflarımızın tasarlanması lazım...
