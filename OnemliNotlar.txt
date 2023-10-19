@@ -53,4 +53,7 @@
 					ENTITIES => Sizin veritabanınızda tablolarınızı temsil edecek class'larınızın bulundugu katmandır
 
 
+					N-Tier mimari paterninde UI asla DAL'den referans almaz...
+
+
 					

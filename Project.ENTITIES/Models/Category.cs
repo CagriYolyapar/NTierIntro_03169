@@ -13,5 +13,10 @@ namespace Project.ENTITIES.Models
 
         //Relational Properties
         public virtual List<Product> Products { get; set; }
+
+        public override string ToString()
+        {
+            return CategoryName;
+        }
     }
 }
