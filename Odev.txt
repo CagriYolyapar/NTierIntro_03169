@@ -1,0 +1,4 @@
+﻿1 => Bu zamana kadar yaptıgınız tüm veritabanlarının UI haric N-Tier mimarideki tüm katmanlarını yapın..Form1 üzerinde en az bir Repository sınıfıyla test edin...
+
+2 => Yaptıgınız tüm veritabanlarını teknolojileri olsun  özellikleri olsun barındıran bir Veritabanı yaratın N-Tier mimaride bunu gerçekleştirip , UI tarafında verilerini de girip (MMORP)
+
